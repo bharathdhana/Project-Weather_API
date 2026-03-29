@@ -1,2 +1,2 @@
-Weather API \n 
+Weather API <br> 
 Odin Project
