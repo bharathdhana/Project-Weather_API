@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Now</h1>
+    </header>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="weather" style="display: none;">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <p class="humidity">Humidity: 50%</p>
+                <p class="wind">Wind: 15 km/h</p>
+            </div>
+        </div>
+        <p class="error" style="display: none;">Invalid city name</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
